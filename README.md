@@ -1,6 +1,8 @@
 # Aden - Aplikasi Pengingat Adzan
 Aden adalah sebuah aplikasi pengingat adzan yang dikembangkan menggunakan Flutter framework. Aplikasi ini memberikan fitur-fitur seperti jadwal sholat, arah kiblat, dan tanggal hijriah. Aden dapat digunakan secara gratis.
 
+![Logo Aplikasi](https://github.com/ferdifir/aden-app/blob/main/screenshot/ss.PNG)
+
 ## Fitur
 Aden memiliki beberapa fitur utama:
 

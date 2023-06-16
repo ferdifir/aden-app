@@ -1,16 +1,50 @@
-# aden
+# Aden - Aplikasi Pengingat Adzan
+Aden adalah sebuah aplikasi pengingat adzan yang dikembangkan menggunakan Flutter framework. Aplikasi ini memberikan fitur-fitur seperti jadwal sholat, arah kiblat, dan tanggal hijriah. Aden dapat digunakan secara gratis.
 
-Adzan Reminder App
+## Fitur
+Aden memiliki beberapa fitur utama:
 
-## Getting Started
+**Jadwal Sholat**: Menampilkan jadwal sholat harian berdasarkan lokasi pengguna. Jadwal sholat yang ditampilkan mencakup waktu sholat Subuh, Dzuhur, Ashar, Maghrib, dan Isya.
 
-This project is a starting point for a Flutter application.
+**Kiblat**: Menampilkan arah kiblat berdasarkan lokasi pengguna. Pengguna dapat mengarahkan perangkat ke arah yang ditunjukkan untuk mengetahui arah kiblat yang benar.
 
-A few resources to get you started if this is your first Flutter project:
+**Tanggal Hijriah**: Menampilkan tanggal hijriah saat ini berdasarkan kalender Hijriah. Ini membantu pengguna dalam mengetahui tanggal Hijriah yang sedang berlangsung.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Instalasi
+Pastikan Anda memiliki Flutter SDK terinstal di sistem Anda. Jika belum, Anda dapat mengunduh dan menginstalnya dari situs resmi Flutter.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Clone repositori Aden ke direktori lokal Anda:
+```
+    git clone https://github.com/username/repo.git
+```
+- Masuk ke direktori proyek:
+```
+    cd aden
+```
+- Jalankan perintah berikut untuk menginstal semua dependensi yang diperlukan:
+```
+    flutter pub get
+```
+- Setelah selesai, jalankan aplikasi dengan perintah:
+```
+    flutter run
+```
+
+Pastikan Anda memiliki perangkat terhubung atau simulator yang berjalan untuk melihat Aden dalam tindakan.
+
+## Konfigurasi
+Aden membutuhkan beberapa konfigurasi agar dapat berfungsi dengan baik. Anda perlu melakukan konfigurasi berikut sebelum menjalankan aplikasi:
+
+- Pastikan perangkat atau emulator yang digunakan memiliki akses ke internet.
+- Izinkan aplikasi untuk mengakses lokasi pengguna. Pastikan izin lokasi diaktifkan pada perangkat Anda.
+
+## Dependency
+
+Aplikasi ini menggunakan beberapa dependency sebagai berikut:
+
+- [flutter_map](https://pub.dev/packages/flutter_map): Digunakan untuk menampilkan peta dan menambahkan marker pada lokasi pengguna.
+- [latlong2](https://pub.dev/packages/latlong2): Digunakan untuk mengelola koordinat latitude dan longitude.
+- [geolocator](https://pub.dev/packages/geolocator): Digunakan untuk mendapatkan lokasi pengguna berdasarkan latitude dan longitude.
+- [geocoding](https://pub.dev/packages/geocoding): Digunakan untuk mengonversi koordinat latitude dan longitude menjadi alamat atau sebaliknya.
+- [flutter_bloc](https://pub.dev/packages/flutter_bloc): Digunakan untuk mengimplementasikan arsitektur BLoC (Business Logic Component) dalam pengelolaan state aplikasi.
+- [equatable](https://pub.dev/packages/equatable): Digunakan untuk membandingkan objek secara mudah dan efisien.
